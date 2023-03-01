@@ -1,0 +1,44 @@
+$textColorOne: red;
+$backgroundColorOne: #237C95;
+$backgroundImage: "maserati";
+
+.taskOne p {
+  color: $textColorOne;
+
+}
+
+
+
+@mixin mixinOne {
+    color: $textColorOne;
+}
+.taskTwo{
+    @include mixinOne()
+}
+
+
+.taskThree {
+    .nestedDiv{
+        color: red;
+    }
+}
+
+@mixin mixinTwo {
+   background-color: $backgroundColorOne;
+   height: 200px;
+   width: 200px;
+   margin: 10px;
+}
+.taskFour{
+    @include mixinTwo()
+}
+
+
+.taskFive img{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+.taskFive:after{
+    content: $backgroundImage;
+}

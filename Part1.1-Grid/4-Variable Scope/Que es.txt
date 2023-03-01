@@ -1,0 +1,1 @@
+Variable Scope hace alusion a donde se va a utilizar la variable y cuanto mas cerca este la definicion de esta, sera el valor que coja

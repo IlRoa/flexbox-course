@@ -1,0 +1,27 @@
+body {
+  background-color: Red;
+  height: 100vh;
+  height: 100vw;
+}
+
+.container {
+  font-family: verdana;
+  font-size: 0.8rem;
+}
+
+.page-wrapper {
+  padding: 0px;
+}
+
+.featured {
+  background-color: darkred;
+}
+
+.page-content {
+  background-color: Blue;
+  padding: 42px;
+}
+
+.container {
+  font-family: courier;
+}
